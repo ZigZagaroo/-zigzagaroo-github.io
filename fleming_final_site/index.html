@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleming Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <div class="hero-container">
+        <div class="inner">
+            <img src= "tv set.svg" alt="TV." class="main">
+            <button class="name hero-to-nav" id="home-content">Louis Fleming</button>
+            <nav id="nav-section">
+                <ul>
+                    <li><button id="nav-to-contact">Contact</button></li>
+                    <li><button id="nav-to-about">About</button></li>
+                    <li><button id="nav-to-portfolio">Portfolio</button></li>
+                </ul>
+            </nav>
+            <button class="name" id="nav-to-hero">Go back</button>
+            <div id="contact-section">
+                <ul>
+                    <li>
+                        <div>
+                            <h3 class="contact-text">Email</h3>
+                            <span class="contact-text">youremail@gmail.com</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3 class="contact-text">Phone</h3>
+                            <span class="contact-text phone">+090908080707</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3 class="contact-text">Behance</h3>
+                            <a href="https://www.behance.net/louisfleming1"><span class="contact-text">yourbehanceprofile</span></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button class="name" id="contact-to-nav">Go back</button>
+        </div>
+    </div>
+    <section id="about">
+        <img src= "border.svg" alt="Projecter." class="about-img">
+        <p class="about-content">
+            Official Debrief<br>
+            Classification Level:<br>
+            Civilian Access<br><br>
+            
+          Art has been a deep passion for me as a person since far back in my early life. I've always been infatuated with visually reliant mediums like film and illustration for as long as I can remember. The marriage between shapes, lines and color and contextually presented information to form a coherent storytelling experience has always mesmerized me. I knew from then on I wanted to find some way to involve myself in arts that were open to me.
+        <br><br>
+          My priorities in tackling a project is to ensure the design does not overtake the piece. The function of a great design is to help convey and embolden the message it's trying to communicate. At the end of the day, functionality must take center stage over design, it must simply aid in keeping it there. In tackling a project, I realize that though my capacity for conceptualization is near limitless, the most important thing I can achieve as a designer is to adhere to a prjects overarching vision. The best thing I can do is to contribute my talents to the efforts of a larger team to execute a final visual that perfectly embodies a company's message and values.
+        </p>
+        <button class="name" id="about-to-nav">Go back</button>
+    </section>
+    <section id="portfolio">
+        <img src= "wolf_head.svg" alt="Wolf head." class="wolf-head">
+        <img src= "wolf_jaw.svg" alt="Wolf jaw." class="wolf-jaw">
+        <div class="skills">
+            <div class="container">
+                <img src= "photography_node.png" alt="Photography skill." class="skill-img">
+                <div class="smaller-nodes">
+                    <img src= "small-nodes/photo_one.png" alt="Smaller node." class="sm-node" data-img-con="1">
+                    <img src= "small-nodes/photo_two.png" alt="Smaller node." class="sm-node" data-img-con="2">
+                    <img src= "small-nodes/photo_three.png" alt="Smaller node." class="sm-node" data-img-con="3">
+                </div>
+            </div>
+            <div class="container">
+                <img src= "illustration_node_1.png" alt="Illustration skill." class="skill-img">
+                <div class="smaller-nodes">
+                    <img src= "small-nodes/illustrate_one.png" alt="Smaller node." class="sm-node" data-img-con="4">
+                    <img src= "small-nodes/illustrate_two.png" alt="Smaller node." class="sm-node" data-img-con="5">
+                    <img src= "small-nodes/illustrate_three.png" alt="Smaller node." class="sm-node" data-img-con="6">
+                </div>
+            </div>
+            <div class="container">
+                <img src= "package_design_node.png" alt="Package design skill." class="skill-img">
+                <div class="smaller-nodes">
+                    <img src= "small-nodes/package_one.png" alt="Smaller node." class="sm-node" data-img-con="7">
+                    <img src= "small-nodes/package_two.png" alt="Smaller node." class="sm-node" data-img-con="8">
+                    <img src= "small-nodes/package_three.png" alt="Smaller node." class="sm-node" data-img-con="9">
+                </div>
+            </div>
+        </div>
+        <button class="name" id="portfolio-to-nav">Go back</button>
+    </section>
+    <div class="imgs">
+        <img src= "photography_one.jpg" alt="1" data-img-no="1">
+        <img src= "photography_two.jpg" alt="2" data-img-no="2">
+        <img src= "photography_three.jpg" alt="3" data-img-no="3">
+        <img src= "illustration_one.png" alt="4" data-img-no="4">
+        <img src= "illustration_two.png" alt="5" data-img-no="5">
+        <img src= "illustration_three.png" alt="6" data-img-no="6">
+        <img src= "package_design_one.png" alt="7" data-img-no="7">
+        <img src= "package_design_three.png" alt="8" data-img-no="8">
+        <img src= "package_design_two.jpg" alt="9" data-img-no="9">
+        <button class="name" id="close-img">Go back</button>
+    </div>
+</body>
+</html>
